@@ -6,8 +6,8 @@
 			{{ partial "head.html" . }}
 			
 			<main class="list">
-				{{- if isset .Site.Params "title" -}}
-				<h1>{{ .Site.Params.Title | markdownify }}</h1>
+				{{- if isset .Site.Params "hometitle" -}}
+				<h1>{{ .Site.Params.hometitle | markdownify }}</h1>
 				{{- end -}}
 				<div class="site-description">
 					{{- if isset .Site.Params "subtitle" -}}

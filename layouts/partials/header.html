@@ -4,8 +4,8 @@
 	{{- $title := ( .Title ) -}}
 	{{- $siteTitle := ( .Site.Title ) -}}
 	{{- if .IsHome -}}
-		{{- if isset .Site.Params "title" -}}
-		<title>{{ $siteTitle }} | {{ .Site.Params.Title }}</title>
+		{{- if isset .Site.Params "hometitle" -}}
+		<title>{{ $siteTitle }} | {{ .Site.Params.hometitle }}</title>
 		{{- else -}}
 		<title>{{ $siteTitle }} | Home </title>
 		{{- end -}}
