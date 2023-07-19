@@ -156,7 +156,6 @@ h6::before { color: var(--maincolor); content: '###### '; }
 
 .meta {
   color: #999;
-  letter-spacing: -0.5px;
 }
 
 /* Footer */
